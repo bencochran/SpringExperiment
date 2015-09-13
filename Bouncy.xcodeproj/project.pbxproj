@@ -10,6 +10,18 @@
 		B84F89DF1BA4F3CB0047C4C1 /* Bouncy.h in Headers */ = {isa = PBXBuildFile; fileRef = B84F89DE1BA4F3CB0047C4C1 /* Bouncy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B84F89E61BA4F3CC0047C4C1 /* Bouncy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84F89DB1BA4F3CB0047C4C1 /* Bouncy.framework */; settings = {ASSET_TAGS = (); }; };
 		B84F89EB1BA4F3CC0047C4C1 /* BouncyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84F89EA1BA4F3CC0047C4C1 /* BouncyTests.swift */; };
+		B84F89F61BA4F4100047C4C1 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84F89F51BA4F4100047C4C1 /* Spring.swift */; settings = {ASSET_TAGS = (); }; };
+		B84F89F81BA4F42E0047C4C1 /* Arithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84F89F71BA4F42E0047C4C1 /* Arithmetic.swift */; settings = {ASSET_TAGS = (); }; };
+		B8ACD1B21BA52705004A53A8 /* TupleArithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8ACD1B11BA52705004A53A8 /* TupleArithmetic.swift */; settings = {ASSET_TAGS = (); }; };
+		B8ACD1B41BA538CE004A53A8 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8ACD1B31BA538CE004A53A8 /* UIKitExtensions.swift */; settings = {ASSET_TAGS = (); }; };
+		B8ACD1BC1BA5428D004A53A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8ACD1BB1BA5428D004A53A8 /* AppDelegate.swift */; };
+		B8ACD1BE1BA5428D004A53A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8ACD1BD1BA5428D004A53A8 /* ViewController.swift */; };
+		B8ACD1C11BA5428D004A53A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8ACD1BF1BA5428D004A53A8 /* Main.storyboard */; };
+		B8ACD1C31BA5428D004A53A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8ACD1C21BA5428D004A53A8 /* Assets.xcassets */; };
+		B8ACD1C61BA5428E004A53A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8ACD1C41BA5428D004A53A8 /* LaunchScreen.storyboard */; };
+		B8ACD1CB1BA54295004A53A8 /* Bouncy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84F89DB1BA4F3CB0047C4C1 /* Bouncy.framework */; };
+		B8ACD1CC1BA54295004A53A8 /* Bouncy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B84F89DB1BA4F3CB0047C4C1 /* Bouncy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B8ACD1D11BA542E3004A53A8 /* BounceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8ACD1D01BA542E3004A53A8 /* BounceView.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,7 +32,28 @@
 			remoteGlobalIDString = B84F89DA1BA4F3CB0047C4C1;
 			remoteInfo = Bouncy;
 		};
+		B8ACD1CD1BA54296004A53A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B84F89D21BA4F3CB0047C4C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B84F89DA1BA4F3CB0047C4C1;
+			remoteInfo = Bouncy;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B8ACD1CF1BA54296004A53A8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B8ACD1CC1BA54295004A53A8 /* Bouncy.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B84F89DB1BA4F3CB0047C4C1 /* Bouncy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bouncy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +62,18 @@
 		B84F89E51BA4F3CC0047C4C1 /* BouncyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BouncyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B84F89EA1BA4F3CC0047C4C1 /* BouncyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncyTests.swift; sourceTree = "<group>"; };
 		B84F89EC1BA4F3CC0047C4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B84F89F51BA4F4100047C4C1 /* Spring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spring.swift; sourceTree = "<group>"; };
+		B84F89F71BA4F42E0047C4C1 /* Arithmetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arithmetic.swift; sourceTree = "<group>"; };
+		B8ACD1B11BA52705004A53A8 /* TupleArithmetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TupleArithmetic.swift; sourceTree = "<group>"; };
+		B8ACD1B31BA538CE004A53A8 /* UIKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
+		B8ACD1B91BA5428D004A53A8 /* BouncyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BouncyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8ACD1BB1BA5428D004A53A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B8ACD1BD1BA5428D004A53A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B8ACD1C01BA5428D004A53A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8ACD1C21BA5428D004A53A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8ACD1C51BA5428D004A53A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8ACD1C71BA5428E004A53A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8ACD1D01BA542E3004A53A8 /* BounceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +92,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B8ACD1B61BA5428D004A53A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8ACD1CB1BA54295004A53A8 /* Bouncy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +108,7 @@
 			children = (
 				B84F89DD1BA4F3CB0047C4C1 /* Bouncy */,
 				B84F89E91BA4F3CC0047C4C1 /* BouncyTests */,
+				B8ACD1BA1BA5428D004A53A8 /* BouncyDemo */,
 				B84F89DC1BA4F3CB0047C4C1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +118,7 @@
 			children = (
 				B84F89DB1BA4F3CB0047C4C1 /* Bouncy.framework */,
 				B84F89E51BA4F3CC0047C4C1 /* BouncyTests.xctest */,
+				B8ACD1B91BA5428D004A53A8 /* BouncyDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,6 +127,10 @@
 			isa = PBXGroup;
 			children = (
 				B84F89DE1BA4F3CB0047C4C1 /* Bouncy.h */,
+				B84F89F51BA4F4100047C4C1 /* Spring.swift */,
+				B84F89F71BA4F42E0047C4C1 /* Arithmetic.swift */,
+				B8ACD1B11BA52705004A53A8 /* TupleArithmetic.swift */,
+				B8ACD1B31BA538CE004A53A8 /* UIKitExtensions.swift */,
 				B84F89E01BA4F3CB0047C4C1 /* Info.plist */,
 			);
 			path = Bouncy;
@@ -84,6 +143,20 @@
 				B84F89EC1BA4F3CC0047C4C1 /* Info.plist */,
 			);
 			path = BouncyTests;
+			sourceTree = "<group>";
+		};
+		B8ACD1BA1BA5428D004A53A8 /* BouncyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B8ACD1BB1BA5428D004A53A8 /* AppDelegate.swift */,
+				B8ACD1BD1BA5428D004A53A8 /* ViewController.swift */,
+				B8ACD1D01BA542E3004A53A8 /* BounceView.swift */,
+				B8ACD1BF1BA5428D004A53A8 /* Main.storyboard */,
+				B8ACD1C21BA5428D004A53A8 /* Assets.xcassets */,
+				B8ACD1C41BA5428D004A53A8 /* LaunchScreen.storyboard */,
+				B8ACD1C71BA5428E004A53A8 /* Info.plist */,
+			);
+			path = BouncyDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,12 +209,32 @@
 			productReference = B84F89E51BA4F3CC0047C4C1 /* BouncyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		B8ACD1B81BA5428D004A53A8 /* BouncyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8ACD1C81BA5428E004A53A8 /* Build configuration list for PBXNativeTarget "BouncyDemo" */;
+			buildPhases = (
+				B8ACD1B51BA5428D004A53A8 /* Sources */,
+				B8ACD1B61BA5428D004A53A8 /* Frameworks */,
+				B8ACD1B71BA5428D004A53A8 /* Resources */,
+				B8ACD1CF1BA54296004A53A8 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8ACD1CE1BA54296004A53A8 /* PBXTargetDependency */,
+			);
+			name = BouncyDemo;
+			productName = BouncyDemo;
+			productReference = B8ACD1B91BA5428D004A53A8 /* BouncyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		B84F89D21BA4F3CB0047C4C1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Ben Cochran";
 				TargetAttributes = {
@@ -149,6 +242,9 @@
 						CreatedOnToolsVersion = 7.0;
 					};
 					B84F89E41BA4F3CC0047C4C1 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B8ACD1B81BA5428D004A53A8 = {
 						CreatedOnToolsVersion = 7.0;
 					};
 				};
@@ -159,6 +255,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = B84F89D11BA4F3CB0047C4C1;
 			productRefGroup = B84F89DC1BA4F3CB0047C4C1 /* Products */;
@@ -167,6 +264,7 @@
 			targets = (
 				B84F89DA1BA4F3CB0047C4C1 /* Bouncy */,
 				B84F89E41BA4F3CC0047C4C1 /* BouncyTests */,
+				B8ACD1B81BA5428D004A53A8 /* BouncyDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -186,6 +284,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B8ACD1B71BA5428D004A53A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8ACD1C61BA5428E004A53A8 /* LaunchScreen.storyboard in Resources */,
+				B8ACD1C31BA5428D004A53A8 /* Assets.xcassets in Resources */,
+				B8ACD1C11BA5428D004A53A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -193,6 +301,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B84F89F61BA4F4100047C4C1 /* Spring.swift in Sources */,
+				B8ACD1B21BA52705004A53A8 /* TupleArithmetic.swift in Sources */,
+				B8ACD1B41BA538CE004A53A8 /* UIKitExtensions.swift in Sources */,
+				B84F89F81BA4F42E0047C4C1 /* Arithmetic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +316,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B8ACD1B51BA5428D004A53A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8ACD1D11BA542E3004A53A8 /* BounceView.swift in Sources */,
+				B8ACD1BE1BA5428D004A53A8 /* ViewController.swift in Sources */,
+				B8ACD1BC1BA5428D004A53A8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -212,7 +334,31 @@
 			target = B84F89DA1BA4F3CB0047C4C1 /* Bouncy */;
 			targetProxy = B84F89E71BA4F3CC0047C4C1 /* PBXContainerItemProxy */;
 		};
+		B8ACD1CE1BA54296004A53A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B84F89DA1BA4F3CB0047C4C1 /* Bouncy */;
+			targetProxy = B8ACD1CD1BA54296004A53A8 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8ACD1BF1BA5428D004A53A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8ACD1C01BA5428D004A53A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8ACD1C41BA5428D004A53A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8ACD1C51BA5428D004A53A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B84F89ED1BA4F3CC0047C4C1 /* Debug */ = {
@@ -307,6 +453,7 @@
 		B84F89F01BA4F3CC0047C4C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -317,12 +464,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bencochran.Bouncy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		B84F89F11BA4F3CC0047C4C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -356,6 +505,30 @@
 			};
 			name = Release;
 		};
+		B8ACD1C91BA5428E004A53A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = BouncyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bencochran.BouncyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B8ACD1CA1BA5428E004A53A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = BouncyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bencochran.BouncyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -375,12 +548,22 @@
 				B84F89F11BA4F3CC0047C4C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B84F89F21BA4F3CC0047C4C1 /* Build configuration list for PBXNativeTarget "BouncyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B84F89F31BA4F3CC0047C4C1 /* Debug */,
 				B84F89F41BA4F3CC0047C4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8ACD1C81BA5428E004A53A8 /* Build configuration list for PBXNativeTarget "BouncyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8ACD1C91BA5428E004A53A8 /* Debug */,
+				B8ACD1CA1BA5428E004A53A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
